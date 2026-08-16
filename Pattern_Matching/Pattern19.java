@@ -26,7 +26,7 @@ int spaces =0;
     }
 
     public static void backward(int n){
-            int spaces = 8;
+            int spaces = (2*n)-2;
 
         for (int i = 0; i <n; i++) {
             for (int j = 0; j <=i; j++) {
