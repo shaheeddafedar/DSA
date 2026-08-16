@@ -8,8 +8,8 @@ public class Pattern18 {
 
     public static void pattern18(int n){
 
-        for (int i = 1; i <=n; i++) {
-            for (char j = 'E'-i; j <='E'; j++) {
+        for (int i = 0; i <n; i++) {
+            for (char j =(char)('E'-i); j <='E'; j++) {
                 System.out.print(j);
             }
             System.out.println();
