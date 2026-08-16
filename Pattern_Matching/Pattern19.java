@@ -3,11 +3,11 @@ package Pattern_Matching;
 public class Pattern19 {
     public static void main(String[] args) {
         int n=5;
-      pattern19(n);
+      upside(n);
     backward(n);
     }
 
-    public static void pattern19(int n){
+    public static void upside(int n){
 int spaces =0;
         for (int i = 0; i <n; i++) {
             for (int j = 0; j <n-i; j++) {
