@@ -26,4 +26,12 @@ public class Count_digit {
         }
         return count;
     }
+
 }
+
+
+// or
+// int count = (int) Math.log10(n)+1;
+//  return count;
+    
+// }

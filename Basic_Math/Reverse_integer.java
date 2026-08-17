@@ -25,3 +25,24 @@ public class Reverse_integer {
         return revernum;
     }
 }
+
+
+
+
+//  or 
+// class Solution {
+//     public int reverse(int x) {
+//            int digit=0;
+//         int revernum =0;
+//      while (x!=0) {
+//             digit=x%10;
+//          if (revernum > Integer.MAX_VALUE / 10 ||
+//         revernum < Integer.MIN_VALUE / 10) {
+//          return 0;
+//          }  
+//             revernum=revernum*10+digit;
+//             x=x/10;
+//         }
+//         return revernum;
+//     }
+// }
