@@ -39,4 +39,25 @@ public class Divisors {
         }
         return divisorList;
     }
+
 }
+
+
+// or
+
+
+//     public static void divisor(int n){
+//         TreeSet<Integer> ls = new TreeSet<Integer>();
+//    for (int i = 1; i <=Math.sqrt(n); i++) {
+//     if (n%i==0) {
+//         ls.add(i);
+//         if ((n/i)!=i) {
+//           ls.add(n/i);
+//         }
+//     }
+//    }
+//    for (Integer integer : ls) {
+//     System.out.println(integer);
+//    }
+//     }
+

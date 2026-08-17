@@ -41,3 +41,45 @@ public class Palindrome {
 
 // or
 // return originalNumber == reversedNumber;
+
+
+
+
+// package Basic_Math;
+
+// import java.util.Scanner;
+
+// public class Palindrome {
+
+//     public static void main(String[] args) {
+
+//         Scanner input = new Scanner(System.in);
+
+//         System.out.print("Enter your integer value: ");
+//         int n = input.nextInt();
+
+//         if (isPalindrome(n)) {
+//             System.out.println("The given value is a Palindrome");
+//         } else {
+//             System.out.println("The given value is not a Palindrome");
+//         }
+
+//         input.close();
+//     }
+
+//     public static boolean isPalindrome(int n) {
+
+//         if (n < 0 || (n % 10 == 0 && n != 0)) {
+//             return false;
+//         }
+
+//         int reversedHalf = 0;
+
+//         while (n > reversedHalf) {
+//             reversedHalf = reversedHalf * 10 + n % 10;
+//             n /= 10;
+//         }
+
+//         return n == reversedHalf || n == reversedHalf / 10;
+//     }
+// }
