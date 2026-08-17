@@ -19,6 +19,10 @@ public class Palindrome {
     }
 
     public static boolean isPalindrome(int n) {
+        if (n < 0) {
+            return false;
+        }
+
         int originalNumber = n;
         int digit = 0;
         int reversedNumber = 0;
@@ -34,3 +38,6 @@ public class Palindrome {
         }
     }
 }
+
+// or
+// return originalNumber == reversedNumber;
