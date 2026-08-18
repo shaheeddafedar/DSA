@@ -6,7 +6,7 @@ package Recursion;
 
 import java.util.Scanner;
 
-public class N_number {
+public class One_N_number {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Your  values : ");
