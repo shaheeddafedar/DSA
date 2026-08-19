@@ -23,4 +23,17 @@ public class Sum {
         sum = n + previoussum;
         return sum;
     }
+
 }
+
+
+
+    // public static int NumbersSum(int i,int n) {
+    //     if (i<1) {
+    //         return n;
+    //     }
+    //     int sum = 0;
+
+    //     sum= NumbersSum(i - 1,n+i);
+    //     return sum;
+    // }
