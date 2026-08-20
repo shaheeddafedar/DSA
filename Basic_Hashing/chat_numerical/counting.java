@@ -17,10 +17,12 @@ public class counting {
             mp.put(nums[i], mp.getOrDefault(nums[i], 0) + 1);
 
         }
-        if (mp.containsKey(target)) {
-            targo = mp.get(target);
-        }
-        return targo;
+        // if (mp.containsKey(target)) {
+        //     targo = mp.get(target);
+        // }
+        // return targo;
+
+        return mp.getOrDefault(target, 0);
 
     }
 }
