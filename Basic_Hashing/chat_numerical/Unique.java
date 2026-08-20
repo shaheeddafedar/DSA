@@ -10,7 +10,6 @@ public class Unique {
         System.out.println(result);
     }
     public static int  check_Unique(int [] arr){
-        int count=0;
         HashSet <Integer> set = new HashSet<>();
         for (int i = 0; i < arr.length; i++) {
             set.add(arr[i]);

@@ -1,4 +1,4 @@
-package Basic_Hashing.chat_numerical;
+package Basic_Hashing;
 
 import java.util.HashMap;
 
