@@ -12,7 +12,6 @@ public class uniqueinarray {
         } else{
             System.out.println("False");
         }
-        
     }
     public static boolean check(int []arr1,int []arr2){
         HashSet<Integer> hs = new HashSet<>();
