@@ -4,6 +4,7 @@ package Basic_Hashing.chat_numerical;
 import java.util.HashSet;
 
 public class uniqueinarray {
+    
     public static void main(String[] args) {
         int []arr1 ={1, 2, 3, 4};
         int []arr2={7, 8, 3, 9};
