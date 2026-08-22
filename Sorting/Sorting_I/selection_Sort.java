@@ -3,9 +3,9 @@ package Sorting.Sorting_I;
 public class selection_Sort {
     public static void main(String[] args) {
         int [] arr={13,46,24,52,20,9};
-        int [] reuslt = selectionSort(arr);
-        for (int i = 0; i < reuslt.length; i++) {
-            System.out.println(+reuslt[i]);
+        int [] result = selectionSort(arr);
+        for (int i = 0; i < result.length; i++) {
+            System.out.println(+result[i]);
         }
     }
 
