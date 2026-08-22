@@ -28,3 +28,8 @@ public class selection_Sort {
         arr[i]=temp;
     } 
 }
+
+
+
+// Time Complexity = O(N²)
+// Space Complexity = O(1)
