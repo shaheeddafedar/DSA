@@ -2,7 +2,6 @@ package Sorting.Sorting_I;
 
 public class insertion_Sort {
     public static void main(String[] args) {
-        
         int[] nums = { 5, 4, 3, 2, 1 };
         System.out.println("Insertion Sort using Ascending  Order");
         int [] result1=insertion_Sort_Asc(nums);
