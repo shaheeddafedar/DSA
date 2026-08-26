@@ -6,6 +6,7 @@ public class bubble_Sort {
         System.out.println("Bubble Sort using Ascending  Order");
         int[] result1 = bubbleSort_Asc(arr);
         for (int i = 0; i < result1.length; i++) {
+            
             System.out.println(result1[i]);
         }
         System.out.println("Bubble Sort using Descending  Order");
