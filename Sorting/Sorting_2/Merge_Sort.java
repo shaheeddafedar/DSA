@@ -33,6 +33,7 @@ public class Merge_Sort {
                 temp.add(arr[right]);
                 right++;
             }
+            
         }
         System.out.println(temp);
     }
