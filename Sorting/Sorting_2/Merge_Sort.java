@@ -7,6 +7,7 @@ import Basic_Math.partice;
 import hi.hi;
 
 public class Merge_Sort {
+    
     public static void main(String[] args) {
         int [] arr = {3,1,2,4,1,5,2,6,4};
     MergeSort(arr, 0, arr.length-1);    
