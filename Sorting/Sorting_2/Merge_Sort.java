@@ -39,6 +39,7 @@ public class Merge_Sort {
             temp.add(arr[left]);
             left++;
         }
+        
         while (right <= high) {
             temp.add(arr[right]);
             right++;
