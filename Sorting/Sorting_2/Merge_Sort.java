@@ -11,14 +11,15 @@ public class Merge_Sort {
         }
     }
 
-    public static void MergeSort(int arr[], int low, int high) {
+    public static int [] MergeSort(int arr[], int low, int high) {
         if (low >= high) {
-            return;
+            return arr;
         }
         int mid = (low + high) / 2;
         MergeSort(arr, low, mid);
         MergeSort(arr, mid + 1, high);
         Merge(arr, low, mid, high);
+        return arr;
     }
 
     public static void Merge(int arr[], int low, int mid, int high) {
