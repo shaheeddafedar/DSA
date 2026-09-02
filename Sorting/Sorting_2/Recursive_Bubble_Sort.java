@@ -17,7 +17,7 @@ public class Recursive_Bubble_Sort {
         if (arrs[low]>arrs[low+1]) {
             swap(arrs, low);
         }
-                    Recursive_Bubble(arrs, low+1, high); 
+          Recursive_Bubble(arrs, low+1, high); 
       }else{
             Recursive_Bubble(arrs, 0, high-1);
         }
