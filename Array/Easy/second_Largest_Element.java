@@ -3,31 +3,39 @@
 package Array.Easy;
 
 public class second_Largest_Element {
+
     public static void main(String[] args) {
+
         int[] arr = { 10, 5, 8, 20, 15 };
         int result = secondLargestElement(arr);
         System.out.println(result);
-
     }
 
     public static int secondLargestElement(int[] nums) {
-        if (nums.length<2) {
+        if (nums.length < 2) {
             return -1;
         }
         int largest = nums[0];
-        int second_largest = Integer.MIN_VALUE;
-
+        int secondLargest = Integer.MIN_VALUE;
+        boolean foundSecondLargest = false;
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] > largest) {
-                second_largest = largest;
+                secondLargest = largest;
                 largest = nums[i];
-            } else if (nums[i] > second_largest && nums[i] < largest) {
-                second_largest = nums[i];
+                foundSecondLargest = true;
+            } else if (nums[i] < largest && nums[i] > secondLargest) {
+                secondLargest = nums[i];
+                foundSecondLargest = true;
             }
         }
 
-        return second_largest;
+        if (!foundSecondLargest) {
+            return -1;
+        }
+
+        return secondLargest;
     }
 }
+
 // Time complexity O(n);
 // Space complexity O(1);
