@@ -8,7 +8,7 @@ public class second_Largest_Element {
 
         int[] arr = { 10, 5, 8, 20, 15 };
         int result = secondLargestElement(arr);
-        System.out.println(result);
+        System.out.println("The second largest vaue is : "+result);
     }
 
     public static int secondLargestElement(int[] nums) {
