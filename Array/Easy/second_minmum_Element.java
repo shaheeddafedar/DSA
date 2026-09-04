@@ -25,3 +25,5 @@ public class second_minmum_Element {
         return second_Mini;
     }
 }
+// Time complexity O(n);
+// Space complexity O(1);
