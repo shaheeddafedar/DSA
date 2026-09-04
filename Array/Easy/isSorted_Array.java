@@ -9,8 +9,8 @@ public class isSorted_Array {
         ArrayList<Integer> nums = new ArrayList<>();
         nums.add(10);
         nums.add(20);
-        nums.add(30);
-        nums.add(25);
+        nums.add(20);
+        nums.add(35);
         nums.add(40);
         if (isSorted(nums)) {
             System.out.println("The Array is Sorted");
