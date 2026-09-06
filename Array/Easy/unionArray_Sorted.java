@@ -8,7 +8,6 @@ public class unionArray_Sorted {
         int [] arr2 ={1, 2, 7};
         int [] result = unionArray(arr1, arr2);
         for (int i = 0; i < result.length; i++) {
-            
             System.out.print(result[i]+ " ");
         }
         
