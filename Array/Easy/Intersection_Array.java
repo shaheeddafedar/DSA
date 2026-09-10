@@ -7,6 +7,7 @@ public class Intersection_Array {
         int[] arr1 = { 1, 1, 2, 2};
         int[] arr2 = { 2, 2 };
         int[] result = intersection(arr1, arr2);
+
         for (int i = 0; i < result.length; i++) {
             System.out.print(result[i] + " ");     
         }
