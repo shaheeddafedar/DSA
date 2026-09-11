@@ -30,6 +30,7 @@ public class Intersection_Array {
      int[] result = new int[temp.size()];
         for (int k = 0; k < result.length; k++) {
             result[k] = temp.get(k);
+            
         }
         return result;
   }
