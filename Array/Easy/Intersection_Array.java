@@ -32,7 +32,6 @@ public class Intersection_Array {
             result[k] = temp.get(k);
         }
         return result;
-        
   }
     
 }
