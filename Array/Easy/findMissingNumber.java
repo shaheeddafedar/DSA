@@ -1,3 +1,6 @@
+// Given an integer array of size n containing distinct values in the range from 0 to n (inclusive), return the only number missing from the array within this range.
+
+
 package Array.Easy;
 
 public class findMissingNumber {
