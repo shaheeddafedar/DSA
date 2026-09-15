@@ -28,6 +28,8 @@ public class longest_Sub_array {
     return maxlength;
   }
 }
+// Time complexity O(2n) or O(n) ;
+// Space complexity O(1);
 
 // Brute force
 // public static int longestSubarray(int[] arr, int k) {
