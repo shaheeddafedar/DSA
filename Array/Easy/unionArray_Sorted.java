@@ -1,5 +1,7 @@
+// Given two sorted arrays nums1 and nums2, return an array that contains the union of these two arrays. The elements in the union must be in ascending order.
+// Input: nums1 = [1, 2, 3, 4, 5], nums2 = [1, 2, 7]
+// Output: [1, 2, 3, 4, 5, 7]
 package Array.Easy;
-
 import java.util.ArrayList;
 
 public class unionArray_Sorted {

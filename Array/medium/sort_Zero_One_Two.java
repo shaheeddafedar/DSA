@@ -1,6 +1,5 @@
 // Given an array nums consisting of only 0, 1, or 2. Sort the array in non-decreasing order.
 // The sorting must be done in-place, without making a copy of the original array.
-
 // Input: nums = [1, 0, 2, 1, 0]
 // Output: [0, 0, 1, 1, 2]
 
