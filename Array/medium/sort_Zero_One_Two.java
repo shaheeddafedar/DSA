@@ -29,8 +29,9 @@ public class sort_Zero_One_Two {
     arr[i] = arr[j];
     arr[j] = temp;
 }
-
 }
+// Time → O(n)
+// Space → O(1)
 
 //Better Solution
 //  public static void sortZeroOneTwo(int[] arr) {
