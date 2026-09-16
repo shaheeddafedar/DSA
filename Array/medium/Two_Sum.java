@@ -1,5 +1,8 @@
+// Given an array of integers nums and an integer target. Return the indices(0 - indexed) of two elements in nums such that they add up to target.
+// Each input will have exactly one solution, and the same element cannot be used twice. Return the answer in any order.
+// Input: nums = [1, 6, 2, 10, 3], target = 7
+// Output: [0, 1]
 package Array.medium;
-
 import java.util.HashMap;
 
 public class Two_Sum {
