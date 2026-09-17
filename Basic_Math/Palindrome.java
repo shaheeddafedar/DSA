@@ -41,10 +41,6 @@ public class Palindrome {
 
 // or
 // return originalNumber == reversedNumber;
-
-
-
-
 // package Basic_Math;
 
 // import java.util.Scanner;

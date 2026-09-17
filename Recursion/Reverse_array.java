@@ -21,9 +21,7 @@ public class Reverse_array {
         if (i >= n / 2) {
             return;
         }
-
         swap(arr, i, n);
-
         reverse(arr, i + 1, n);
     }
 

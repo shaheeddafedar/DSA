@@ -4,7 +4,7 @@
 // Input: n = 153
 // Output: true
 // Explanation: Number of digits : 3.
-// 13 + 53 + 33 = 1 + 125 + 27 = 153.
+// 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153.
 // Therefore, it is an Armstrong number.
 
 package Basic_Math;
