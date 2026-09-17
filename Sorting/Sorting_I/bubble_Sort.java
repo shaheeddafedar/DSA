@@ -38,9 +38,9 @@ public class bubble_Sort {
         return nums;
     }
 
-    public static void swap(int[] nums, int i) {
-        int temp = nums[i + 1];
-        nums[i + 1] = nums[i];
-        nums[i] = temp;
+    public static void swap(int[] nums, int j) {
+        int temp = nums[j + 1];
+        nums[j + 1] = nums[j];
+        nums[j] = temp;
     }
 }

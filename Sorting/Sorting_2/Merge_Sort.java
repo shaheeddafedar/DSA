@@ -62,3 +62,5 @@ public class Merge_Sort {
         }
     }
 }
+//  Time Complexity: O(n log n)
+//  space Complexity: O(n)
