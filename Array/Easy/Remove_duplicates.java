@@ -10,6 +10,7 @@ public class Remove_duplicates {
           for (int k = 0; k < result; k++) {
             System.out.println(arr[k]);
         }
+        
     }
 
     public static int Remove_duplicate(int[] arrs) {
