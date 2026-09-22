@@ -9,7 +9,6 @@ public class Remove_duplicates {
         System.out.println("The Lenght of Unique element is : "+ result);
           for (int k = 0; k < result; k++) {
             System.out.println(arr[k]);
-     
         }
     }
 
