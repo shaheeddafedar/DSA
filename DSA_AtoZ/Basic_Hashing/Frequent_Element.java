@@ -1,0 +1,33 @@
+// Input: nums = [1, 2, 2, 3, 3, 3]
+// Output: 3
+// Explanation: The number 3 appears the most (3 times). It is the most frequent element.
+
+
+package DSA_AtoZ.Basic_Hashing;
+import java.util.HashMap;
+
+public class Frequent_Element {
+    public static void main(String[] args) {
+        int [] nums = {1, 2, 3, 3, 1, 3};
+        int result = Frequent_value(nums);
+        System.out.println("The maximum element is "+result);
+    }
+
+    public static int Frequent_value(int[] arr) {
+        HashMap<Integer, Integer> mp = new HashMap<>();
+        for (int i = 0; i < arr.length; i++) {
+            mp.put(arr[i], mp.getOrDefault(arr[i], 0) + 1);
+        }
+        int max = 0;
+        int result =0;
+        for (Integer keys : mp.keySet()) {
+            int frequncy = mp.get(keys);
+            if (frequncy>max) {
+                max = frequncy;
+              result = keys;
+            }
+        }
+        return result;
+
+    }
+}
