@@ -1,0 +1,75 @@
+//  Given an integer array nums of size n, return the majority element of the array.
+//  The majority element of an array is an element that appears more than n/2 times in the array. The array is guaranteed to have a majority element.
+//  Input: nums = [7, 0, 0, 1, 7, 7, 2, 7, 7]
+//  Output: 7
+
+package DSA_180.Arrays;
+public class majorityElement_1 {
+    public static void main(String[] args) {
+         int[] arr = { 7, 0, 0, 1, 7, 7, 2, 7, 7 };
+        int result = majorityElement(arr);
+        System.out.println("The Majority Element in array is : " + result);
+    }
+        public static int majorityElement(int[] arr) {
+        int element=0;
+        int count=0;
+        for (int i = 0; i < arr.length; i++) {
+            if (count==0) {
+                element=arr[i];
+                count=1;
+            } else if (element==arr[i]) {
+                count++;
+            }else{
+                count--;
+            }
+        }
+        int count_value=0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i]==element) {
+                count_value++;
+            }
+        }
+        if (count_value>arr.length/2) {
+            return element;
+        }
+        return -1;
+    }
+}
+
+// Time → O(n)
+// Space → O(1)
+
+
+// Brute Force
+// public static int majorityElement(int[] arr) {
+// for (int i = 0; i < arr.length; i++) {
+// int count=0;
+// for (int j = 0; j < arr.length; j++) {
+// if (arr[i]==arr[j]) {
+// count++;
+// }
+// }
+// if (count>arr.length/2) {
+// return arr[i];
+// }
+// }
+// return -1;
+// }
+// Time → O(n^2)
+// Space → O(1)
+
+// Better
+// public static int majorityElement(int[] arr) {
+// HashMap<Integer, Integer> mp = new HashMap<>();
+// for (int i = 0; i < arr.length; i++) {
+// mp.put(arr[i], mp.getOrDefault(arr[i], 0)+1);
+// }
+// for (int i = 0; i < arr.length; i++) {
+// if (mp.get(arr[i])>arr.length/2) {
+// return arr[i];
+// }
+// }
+// return -1;
+// }
+// Time → O(n log n)
+// Space → O(1)
