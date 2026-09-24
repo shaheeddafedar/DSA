@@ -3,7 +3,7 @@
 //  Input: nums = [7, 0, 0, 1, 7, 7, 2, 7, 7]
 //  Output: 7
 
-package DSA_180.Arrays;
+package DSA_180.Arrays.LinearScan;
 public class majorityElement_1 {
     public static void main(String[] args) {
          int[] arr = { 7, 0, 0, 1, 7, 7, 2, 7, 7 };

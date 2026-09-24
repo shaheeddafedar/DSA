@@ -4,7 +4,7 @@
 // Input: nums = [4, 5, 3, 7, 1, 2]
 // Output: 840
 
-package DSA_180.Arrays;
+package DSA_180.Arrays.LinearScan;
 
 public class maximumProduct {
     public static void main(String[] args) {

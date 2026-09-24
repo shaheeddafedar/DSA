@@ -4,7 +4,7 @@
 // Output: [1]
 
 
-package DSA_180.Arrays;
+package DSA_180.Arrays.LinearScan;
 import java.util.ArrayList;
 import java.util.List;
 

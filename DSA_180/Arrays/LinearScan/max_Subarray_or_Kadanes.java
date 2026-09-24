@@ -3,7 +3,7 @@
 // Input: nums = [2, 3, 5, -2, 7, -4]
 // Output: 15
 
-package DSA_180.Arrays;
+package DSA_180.Arrays.LinearScan;
 
 public class max_Subarray_or_Kadanes {
     public static void main(String[] args) {
