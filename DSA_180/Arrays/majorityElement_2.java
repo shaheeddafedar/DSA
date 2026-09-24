@@ -1,7 +1,11 @@
-package DSA_180.Arrays;
+// Given an integer array nums of size n. Return all elements which appear more than n/3 times in the array. The output can be returned in any order.
+// Example 1:
+// Input: nums = [1, 2, 1, 1, 3, 2]
+// Output: [1]
 
+
+package DSA_180.Arrays;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 public class majorityElement_2 {
@@ -16,8 +20,9 @@ public class majorityElement_2 {
 
     public static List<Integer> majorityElementTwo(int[] arr) {
         int count1 = 0, count2 = 0;
-        int element1 = 0, element2 = 0;
-        int min = arr.length/3+1;
+        int element1 = Integer.MIN_VALUE;
+        int element2 = Integer.MIN_VALUE;
+        int min = arr.length / 3 + 1;
         for (int i = 0; i < arr.length; i++) {
             if (count1 == 0 && arr[i] != element2) {
                 count1 = 1;
@@ -35,17 +40,23 @@ public class majorityElement_2 {
             }
         }
         List<Integer> ls = new ArrayList<>();
-        int count_value1=0,count_value2=0;
+        int count_value1 = 0, count_value2 = 0;
         for (int i = 0; i < arr.length; i++) {
-            if(element1==arr[i]) count_value1++;
-            if(element2==arr[i]) count_value2++;
+            if (element1 == arr[i])
+                count_value1++;
+            if (element2 == arr[i])
+                count_value2++;
         }
-        if (count_value1>=min) ls.add(element1);
-        if (count_value2>=min) ls.add(element2);
+        if (count_value1 >= min)
+            ls.add(element1);
+        if (count_value2 >= min)
+            ls.add(element2);
         return ls;
     }
 
 }
+// Time O(2n) We ignore the constant 2.O(n)
+// Space	O(1)
 
 // Brute force
 // public static List<Integer> majorityElementTwo(int[] arr) {
