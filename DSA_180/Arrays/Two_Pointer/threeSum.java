@@ -16,7 +16,7 @@ public class threeSum {
     }
 
     public static List<List<Integer>> threeSums(int[] arr) {
-       Set<List<Integer>> set = new HashSet<>();
+    List<List<Integer>> result = new ArrayList<>();
       Arrays.sort(arr);
       for (int i = 0; i < arr.length; i++) {
         if (i>0&& arr[i]==arr[i-1]) {
@@ -42,11 +42,11 @@ public class threeSum {
                  while (j<k&& arr[k]==arr[k+1] ) {
                     k--;
                 }
-                set.add(temp);
+                result.add(temp);
             }
         }
       }
-      return  new ArrayList<>(set);
+      return  result;
     }
 }
 //     Time O(n log n + ) o(n^2)
