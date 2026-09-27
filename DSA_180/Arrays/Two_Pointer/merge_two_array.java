@@ -2,7 +2,6 @@ package DSA_180.Arrays.Two_Pointer;
 
 public class merge_two_array {
     public static void main(String[] args) {
-
         int[] arr1 = { 1,2,3,0,0,0};
         int[] arr2 = { 2,5,6};
         int n = arr2.length;
