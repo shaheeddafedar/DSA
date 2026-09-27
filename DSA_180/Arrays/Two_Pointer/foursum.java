@@ -29,7 +29,7 @@ public class foursum {
         int k = j+1;
         int l = arr.length-1;
         while (k<l) {
-            int sum = arr[i]+arr[j]+arr[k]+arr[l];
+            int sum = arr[i]+arr[j]+arr[k]+arr[l]; //Long sum = (long) arr[i]+arr[j]+arr[k]+arr[l];
             if (sum<target) {
                 k++;
             } else if (sum>target){

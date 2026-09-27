@@ -2,9 +2,7 @@ package DSA_180.Arrays.Two_Pointer;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class threeSum {
     public static void main(String[] args) {
