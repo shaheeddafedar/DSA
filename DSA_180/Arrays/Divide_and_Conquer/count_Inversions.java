@@ -52,6 +52,7 @@ public class count_Inversions {
                 arr[i]=temp.get(i-low);
             }
         return   count;
+        
     }
     
 }
