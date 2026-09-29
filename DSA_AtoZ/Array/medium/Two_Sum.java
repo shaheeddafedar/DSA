@@ -101,18 +101,3 @@ public class Two_Sum {
 // time complexity = o(n*log n);
 // Space complexity O(1);
 
-
-
-
-  public static int[] twoSum(int[] arr, int target) {
-        int[] result = new int[2];
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = i+1; j < arr.length; j++) {
-                if (arr[i] + arr[j]== target) {
-                    result[0] = i;
-                    result[1] = j;
-                }
-            }
-        }
-        return result;
-    }
