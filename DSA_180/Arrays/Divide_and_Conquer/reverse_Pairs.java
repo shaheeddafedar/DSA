@@ -66,7 +66,8 @@ public class reverse_Pairs {
     }
 }
 
-
+// Time : O(n log n)
+// Space : O(n)
 
 //Brute Force
 //  public static int reversePairs(int[] arr) {
