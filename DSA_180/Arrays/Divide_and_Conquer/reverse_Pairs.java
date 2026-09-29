@@ -56,7 +56,7 @@ public class reverse_Pairs {
         int count =0;
         int right=mid+1;
         for (int i = low; i <=mid; i++) {
-            if (right<=high && arr[i]>2*arr[right]) {
+            if (right<=high && arr[i]>2L*arr[right]) {
                 right++;
                 count+=(right-(mid+1));
             }
