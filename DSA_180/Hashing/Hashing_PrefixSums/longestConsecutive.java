@@ -27,7 +27,6 @@ public class longestConsecutive {
                         count++;
                       x++;
                     }
-                    
                     longest = Math.max(longest, count);
                 }
             }
