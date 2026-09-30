@@ -58,8 +58,8 @@ public class reverse_Pairs {
         for (int i = low; i <=mid; i++) {
             while (right<=high && arr[i]>2L*arr[right]) {
                 right++;
-                count+=(right-(mid+1));
             }
+            count+=(right-(mid+1));
         }
         
         return count;
