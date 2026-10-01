@@ -28,6 +28,8 @@ public class longestSubarray {
     
     } 
 }
+// Time  = O(n)
+// Space = O(1)
 
 
 // Optimal
