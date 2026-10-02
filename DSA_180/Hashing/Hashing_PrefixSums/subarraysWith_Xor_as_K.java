@@ -27,3 +27,42 @@ public class subarraysWith_Xor_as_K {
 }
 // Time : O(n);
 // Spce : O(1);
+
+
+// Brute force
+// public static int subarraysWithXorK(int[] arr, int k) {
+//     int count = 0;
+//     for (int i = 0; i < arr.length; i++) {
+//         for (int j = i; j < arr.length; j++) {
+//             int xor = 0;
+//             for (int k = i; k <= j; k++) {
+//                 xor = xor ^ arr[k];
+//             }
+//             if (xor == k) {
+//                 count++;
+//             }
+//         }
+//     }
+
+//     return count;
+// }
+// Time = O(n³)
+// Space = O(1)
+
+// Better
+// public static int subarraysWithXorK(int[] arr, int k) {
+//     int count = 0;
+//     for (int i = 0; i < arr.length; i++) {
+//         int xor = 0;
+//         for (int j = i; j < arr.length; j++) {
+//             xor = xor ^ arr[j];
+//             if (xor == k) {
+//                 count++;
+//             }
+//         }
+//     }
+
+//     return count;
+// }
+// Time = O(n^2)
+// Space = O(1)
