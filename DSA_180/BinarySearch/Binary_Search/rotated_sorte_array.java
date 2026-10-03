@@ -7,7 +7,6 @@ public class rotated_sorte_array {
         int [] arr ={4,5,6,7,0,1,2};
         int result = search(arr, 0);
         System.out.println(result);
-        
     }
     public  static  int search(int[] arr, int target) {
         int low =0;
