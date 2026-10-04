@@ -63,9 +63,7 @@ public class threeSum {
 //                         );
 //                         Collections.sort(temp);
 //                         st.add(temp);
-
 //                     }
-
 //                 }
 //             }
 //         }
