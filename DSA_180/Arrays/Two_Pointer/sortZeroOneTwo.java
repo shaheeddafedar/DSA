@@ -1,6 +1,4 @@
 package DSA_180.Arrays.Two_Pointer;
-
-
 public class sortZeroOneTwo {
     public static void main(String[] args) {
          int [] arr= {1, 0, 2, 1, 0};
