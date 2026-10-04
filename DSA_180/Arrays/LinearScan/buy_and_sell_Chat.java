@@ -5,12 +5,12 @@ package DSA_180.Arrays.LinearScan;
 public class buy_and_sell_Chat {
 
     public static void main(String[] args) {
-        
+        int[] prices = {7, 1, 5, 3, 6, 4};
+
+        int result = maxProfit(prices);
+
+        System.out.println("Maximum Profit: " + result);
     }
-}
-
-
-
 public static int maxProfit(int[] prices) {
         int minPrice = prices[0];
         int maxProfit = 0;
@@ -25,6 +25,8 @@ public static int maxProfit(int[] prices) {
 
         return maxProfit;
     }
+
+}
 
     // Complexity
 // Time: O(n)
