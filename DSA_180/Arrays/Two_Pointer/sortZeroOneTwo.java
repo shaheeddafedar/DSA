@@ -59,3 +59,4 @@ public class sortZeroOneTwo {
 //         }
 //     }
 // Time complexity O(2n)
+//Space O(1)
