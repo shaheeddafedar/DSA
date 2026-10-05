@@ -99,4 +99,5 @@ public class majorityElement_2 {
 // return ls;
 // }
 // Time: O(n)
-// Space: O(1)
+// Space: O(n)
+
