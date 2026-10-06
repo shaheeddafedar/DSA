@@ -1,3 +1,13 @@
+// Given two integer arrays nums1 and nums2. Both arrays are sorted in non-decreasing order.
+// Merge both the arrays into a single array sorted in non-decreasing order.
+// The final sorted array should be stored inside the array nums1 and it should be done in-place.
+// nums1 has a length of m + n, where the first m elements denote the elements of nums1 and rest are 0s.
+// nums2 has a length of n.
+// Example 1:
+// Input: nums1 = [-5, -2, 4, 5], nums2 = [-3, 1, 8]
+// Output: [-5, -3, -2, 1, 4, 5, 8]
+
+
 package DSA_180.Arrays.Two_Pointer;
 
 public class merge_two_array {
