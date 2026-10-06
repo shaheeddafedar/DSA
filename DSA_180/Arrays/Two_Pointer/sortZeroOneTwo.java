@@ -2,8 +2,7 @@ package DSA_180.Arrays.Two_Pointer;
 public class sortZeroOneTwo {
     public static void main(String[] args) {
          int [] arr= {1, 0, 2, 1, 0};
-        sortZeroOneTwoo(arr);   
-        
+        sortZeroOneTwoo(arr);      
     }
         public static void sortZeroOneTwoo(int[] arr) {
         int low =0,mid=0,high=arr.length-1;
