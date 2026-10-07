@@ -38,7 +38,6 @@ public class merge_two_array {
                 j--;
             }
         }
-        
         while (j>=0) {
             arrs1[index]=arrs2[j];
             index--;
