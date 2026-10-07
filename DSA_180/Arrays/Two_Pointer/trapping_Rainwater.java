@@ -9,19 +9,19 @@ public class trapping_Rainwater {
     }
         public static  int trap(int[] height) {
           int ans =0;
-          int l =0;
-          int r=height.length-1;
+          int leftindex =0;
+          int rigthindex=height.length-1;
           int leftmax=0;;
           int rigthmax=0;
-          while (l<r) {
-            leftmax=Math.max(leftmax, height[l]);
-            rigthmax=Math.max(rigthmax, height[r]);
+          while (leftindex<rigthindex) {
+            leftmax=Math.max(leftmax, height[leftindex]);
+            rigthmax=Math.max(rigthmax, height[rigthindex]);
 
             if (leftmax<rigthmax) {
-                ans+=leftmax-height[l];
-                l++;
+                ans+=leftmax-height[leftindex];
+                leftindex++;
             } else{
-                ans+=rigthmax-height[r];
+                ans+=rigthmax-height[rigthindex];
             }
           }
       return ans;
