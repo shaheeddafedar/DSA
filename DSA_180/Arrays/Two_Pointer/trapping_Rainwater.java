@@ -45,8 +45,8 @@ public class trapping_Rainwater {
 //         for (int j2 = i; j2 <height.length; j2++) {
 //              rigthmax=Math.max(rigthmax, height[j2]);
 //         }
-//          int water =Math.min(leftmax, rigthmax)-height[i];
-//          totalwater+=water;
+//          totalwater+=Math.min(leftmax, rigthmax)-height[i];
+//          
 //        }
 //        return totalwater;
 //     }
