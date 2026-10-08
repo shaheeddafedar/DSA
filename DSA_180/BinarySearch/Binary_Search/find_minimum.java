@@ -29,9 +29,13 @@ public class find_minimum {
 
      // Brute Force Solution
     // public static int findMinBruteForce(int[] arr) {
-    //     int min = Integer.MAX_VALUE;
+    //     int min = Integer.MAX_VALUE;               
     //     for (int i = 0; i < arr.length; i++) {
     //         min = Math.min(min, arr[i]);
+            //  or
+            //  if (arr[i] < min) {
+            // min = arr[i];
+            //  }
     //     }
     //     return min;
     // }
