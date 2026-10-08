@@ -64,7 +64,7 @@ public class longestConsecutive {
 //         Time O(n^2);
 //         Space O(1);
 
-
+//Better 
 // public static  int longestConsecutives(int[] nums) {
 //               if (nums.length == 0) {
 //                 return 0;

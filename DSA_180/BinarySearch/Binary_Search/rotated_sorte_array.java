@@ -1,7 +1,9 @@
+// 46. Search in rotated sorted array-I
+// Given an integer array nums, sorted in ascending order (with distinct values) and a target value k. The array is rotated at some pivot point that is unknown. Find the index at which k is present and if k is not present return -1.
+// Example 1:
+// Input : nums = [4, 5, 6, 7, 0, 1, 2], k = 0 
+
 package DSA_180.BinarySearch.Binary_Search;
-
-
-
 public class rotated_sorte_array {
     public static void main(String[] args) {
         int [] arr ={4,5,6,7,0,1,2};

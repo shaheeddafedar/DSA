@@ -22,6 +22,7 @@ public class trapping_Rainwater {
                 leftindex++;
             } else{
                 ans+=rigthmax-height[rigthindex];
+                rigthindex--;
             }
           }
       return ans;

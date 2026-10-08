@@ -1,5 +1,9 @@
-package DSA_180.Arrays.Divide_and_Conquer;
+// Two elements a[i] and a[j] 
+// form an inversion 
+// if a[i] > a[j] 
+// and i < j.
 
+package DSA_180.Arrays.Divide_and_Conquer;
 import java.util.ArrayList;
 import java.util.List;
 
