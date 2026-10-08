@@ -4,7 +4,7 @@
 // Input : nums = [4, 5, 6, 7, 0, 1, 2], k = 0 
 
 package DSA_180.BinarySearch.Binary_Search;
-public class rotated_sorte_array {
+public class rotated_sorte_array_1 {
     public static void main(String[] args) {
         int [] arr ={4,5,6,7,0,1,2};
         int result = search(arr, 0);
