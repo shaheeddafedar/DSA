@@ -5,7 +5,6 @@ public class find_minimum {
         int[] arr = {4, 5, 6, 7, 0, 1, 2};
          int Result = findMin(arr);
         System.out.println("Search Minimum: " + Result);
-
     }
     public static int findMin(int [] arr){
         int min = Integer.MAX_VALUE;
