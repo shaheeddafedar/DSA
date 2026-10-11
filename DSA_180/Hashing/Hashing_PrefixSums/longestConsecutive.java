@@ -24,7 +24,7 @@ public class longestConsecutive {
                     count=1;
                     int x =num;
                     while (set.contains(x+1)) {
-                        count++;
+                    count++;
                       x++;
                     }
                     longest = Math.max(longest, count);
