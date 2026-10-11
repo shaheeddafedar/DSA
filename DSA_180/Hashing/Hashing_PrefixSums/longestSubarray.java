@@ -9,7 +9,7 @@ public class longestSubarray {
     
  }  
     public static int longestSubarrays(int[] arr, int k) {
-        int sum=0;
+       int sum=0;
        int maxlen=0;
        int left =0;
        int right=0;

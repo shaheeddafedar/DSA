@@ -19,7 +19,7 @@ public class reverse_Pairs {
         if (low>=high) {
             return 0;
         }
-       int mid = (low+high)/2;
+     int mid = (low+high)/2;
     count += merger_sort(arr, low, mid);
     count += merger_sort(arr, mid + 1, high);
     count+=count_pairs(arr, low, mid, high);

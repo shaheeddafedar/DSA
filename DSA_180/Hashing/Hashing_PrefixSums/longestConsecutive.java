@@ -59,7 +59,6 @@ public class longestConsecutive {
 //                 }
 //             }
 //             return false;
-
 //         }
 //         Time O(n^2);
 //         Space O(1);
