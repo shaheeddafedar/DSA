@@ -1,6 +1,4 @@
 package DSA_180.BinarySearch.Binary_Search;
-
-
 public class rotated_sorted_array_2 {
     public static void main(String[] args) {
         int[] arr = {2, 5, 6, 0, 0, 1, 2};
