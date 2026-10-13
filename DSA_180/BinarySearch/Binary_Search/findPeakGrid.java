@@ -40,6 +40,10 @@ int m = mat[0].length;
      return new int[]{-1, -1};
     }
 }
+	// Time: O(n log ⁡m )
+	// Space: O(1)
+
+
 
 // Brute
 //  public static int [] findPeakGrid_2(int [][] mat){
