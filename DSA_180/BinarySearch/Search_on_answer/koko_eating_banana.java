@@ -40,7 +40,7 @@ public class koko_eating_banana {
 //         for (int i = 1; i <=max; i++) {
 //             int hours =0;
 //            for (int pile : piles) {
-// hours += (pile + i - 1) / i;
+//             hours += (pile + i - 1) / i;
 //            }
 
 //            if (hours<=h) {
