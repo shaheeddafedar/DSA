@@ -37,6 +37,8 @@ public class aggressive_cows {
    }
 }
 
+//  time complexity:O(n log n+n log D)
+// Space:O(1)
 
 //Brute force
 // public static int aggressiveCows(int[] nums, int k) {
