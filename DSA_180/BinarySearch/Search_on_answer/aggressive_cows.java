@@ -7,7 +7,7 @@ public class aggressive_cows {
     }
     public static int aggressiveCows(int []nums, int k){
             Arrays.sort(nums);
-            int low =1;
+            int low =0;
             int high =nums[nums.length-1]-nums[0];
             int ans =-1;
             while (low<=high) {
