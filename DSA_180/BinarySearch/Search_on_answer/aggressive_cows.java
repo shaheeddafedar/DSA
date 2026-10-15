@@ -3,6 +3,10 @@ import java.util.Arrays;
 
 public class aggressive_cows {
     public static void main(String[] args) {
+        int [] piles ={3,6,7,11};
+        int h =8;
+        int result = aggressiveCows(piles, h);
+        System.out.println(result);
         
     }
     public static int aggressiveCows(int []nums, int k){

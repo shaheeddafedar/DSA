@@ -2,7 +2,10 @@ package DSA_180.BinarySearch.Search_on_answer;
 
 public class koko_eating_banana {
     public static void main(String[] args) {
-        
+         int [] piles ={3,6,7,11};
+        int h =8;
+        int result = minEatingSpeed(piles, h);
+        System.out.println(result);
     }
     public  static  int minEatingSpeed(int[] piles, int h) {
         int max =0;
