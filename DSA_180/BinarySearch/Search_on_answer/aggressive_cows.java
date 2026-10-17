@@ -1,5 +1,6 @@
 package DSA_180.BinarySearch.Search_on_answer;
 import java.util.Arrays;
+
 public class aggressive_cows {
     public static void main(String[] args) {
         int [] nums ={0, 3, 4, 7, 10, 9};
