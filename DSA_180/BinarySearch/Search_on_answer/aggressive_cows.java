@@ -6,7 +6,6 @@ public class aggressive_cows {
         int k =4;
         int result = aggressiveCows(nums, k);
         System.out.println(result);
-        
     }
     public static int aggressiveCows(int []nums, int k){
             Arrays.sort(nums);
