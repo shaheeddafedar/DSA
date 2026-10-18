@@ -2,6 +2,14 @@ package DSA_180.BinarySearch.Search_on_answer;
 
 public class matrix_median {
     public static void main(String[] args) {
+
+    int[][] matrix = {
+        {1, 3, 5},
+        {2, 6, 9},
+        {3, 6, 9}
+    };
+
+    System.out.println(findMedian(matrix));
         
     }
 
