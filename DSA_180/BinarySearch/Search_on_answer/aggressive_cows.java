@@ -46,30 +46,25 @@ public class aggressive_cows {
 //Brute force
 // public static int aggressiveCows(int[] nums, int k) {
 //     Arrays.sort(nums);
-
 //     int n = nums.length;
 //     int maxDist = nums[n - 1] - nums[0];
 //     int ans = 0;
-
 //     for (int dist = 1; dist <= maxDist; dist++) {
 //         if (canPlaceCows(nums, k, dist)) {
 //             ans = dist;
 //         }
 //     }
-
 //     return ans;
 // }
 
 // public static boolean canPlaceCows(int[] nums, int k, int dist) {
 //     int cows = 1;
 //     int lastPos = nums[0];
-
 //     for (int i = 1; i < nums.length; i++) {
 //         if (nums[i] - lastPos >= dist) {
 //             cows++;
 //             lastPos = nums[i];
 //         }
-
 //         if (cows >= k) {
 //             return true;
 //         }

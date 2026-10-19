@@ -16,12 +16,14 @@ public class matrix_median {
     public static int findMedian(int[][] matrix) {
     int rows = matrix.length;
     int cols = matrix[0].length;
+
     int low = matrix[0][0];
     int high = matrix[0][cols - 1];
     for (int i = 0; i < rows; i++) {
         low = Math.min(low, matrix[i][0]);
         high = Math.max(high, matrix[i][cols - 1]);
     }
+    
     int required = (rows * cols) / 2;
     while (low <= high) {
         int mid = low + (high - low) / 2;

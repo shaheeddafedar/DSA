@@ -14,10 +14,10 @@ public class NthRoot {
             int mid=(low+high)/2;
             long power=1;
             for (int i = 1; i <=n; i++) {
+                power*=mid;
                 if (power > m) {
                     break;
                 }
-                power*=mid;
             }
             if (power==m) {
                 return mid;
@@ -32,3 +32,27 @@ public class NthRoot {
 }
 // Time complexity: O(NlogM) 
 // Space complexity: O(1),
+
+
+//Brute Force
+// public static int NthRoots(int n, int m) {
+//         for (int i = 1; i <= m; i++) {
+//             long power = 1;
+
+//             for (int j = 1; j <= n; j++) {
+//                 power *= i;
+
+//                 if (power > m) {
+//                     break;
+//                 }
+//             }
+
+//             if (power == m) {
+//                 return i;
+//             }
+//         }
+
+//         return -1;
+//     }
+// // Time Complexity: O(N * M)
+// // Space Complexity: O(1)
