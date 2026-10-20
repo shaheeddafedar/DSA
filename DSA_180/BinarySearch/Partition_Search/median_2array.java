@@ -2,10 +2,14 @@ package DSA_180.BinarySearch.Partition_Search;
 
 public class median_2array {
     public static void main(String[] args) {
+         int[] nums1 = {2, 3, 6, 7, 9};
+        int[] nums2 = {1, 4, 8, 10};
+        double result = findMedianSortedArrays(nums1, nums2);
+        System.out.println(result);
         
     }
     
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    public static  double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
         if (nums1.length > nums2.length) {
             return findMedianSortedArrays(nums2, nums1);
