@@ -34,7 +34,6 @@ public class median_2array {
             int right2 = (mid2 == n) ? Integer.MAX_VALUE : nums2[mid2];
 
             if (left1 <= right2 && left2 <= right1) {
-
                 if ((m + n) % 2 == 1) {
                     return Math.max(left1, left2);
                 }
