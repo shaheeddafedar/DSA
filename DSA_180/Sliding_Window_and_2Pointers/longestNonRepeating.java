@@ -2,7 +2,7 @@ package DSA_180.Sliding_Window_and_2Pointers;
 
 import java.util.HashMap;
 
-public class longest_substring {
+public class longestNonRepeating {
     public static void main(String[] args) {
     
     }
