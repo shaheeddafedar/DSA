@@ -34,7 +34,8 @@ public class kDistinctChar_313 {
   return  maxlen;
  }
 }
-
+//     Time :O(N);
+//     Space :O(1)  
 
 // Brute force
 //     public int kDistinctChar(String s, int k) {
