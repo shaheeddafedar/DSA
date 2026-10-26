@@ -30,6 +30,7 @@ public class kDistinctChar_313 {
         maxlen=Math.max(maxlen, right-left+1);
     }
      right++; 
+     
    }
   return  maxlen;
  }
