@@ -31,6 +31,7 @@ public class kDistinctChar_313 {
     }
      right++;
    }
+   
   return  maxlen;
  }
 }
