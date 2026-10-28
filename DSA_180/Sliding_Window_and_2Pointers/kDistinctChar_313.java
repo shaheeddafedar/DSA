@@ -29,8 +29,7 @@ public class kDistinctChar_313 {
     if (map.size()<=k) {
         maxlen=Math.max(maxlen, right-left+1);
     }
-     right++; 
-     
+     right++;  
    }
   return  maxlen;
  }
