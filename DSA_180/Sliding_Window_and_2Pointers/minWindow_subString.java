@@ -7,7 +7,7 @@ public class minWindow_subString {
         String t = "ABC";
 
         System.out.println(minWindow(s, t));
-        
+
     }
     public static String minWindow(String s, String t){
         if (s.length() < t.length()) {
