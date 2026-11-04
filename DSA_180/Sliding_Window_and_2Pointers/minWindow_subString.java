@@ -51,7 +51,6 @@ public class minWindow_subString {
         if (min_Length == Integer.MAX_VALUE) {
             return "";
         }
-        
         return s.substring(startindex, startindex + min_Length);
     }
 }
