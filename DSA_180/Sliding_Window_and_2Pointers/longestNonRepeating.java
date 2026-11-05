@@ -21,7 +21,6 @@ public class longestNonRepeating {
         r++;
     }
     return maxlen;
-
 }
 }
 //Time :O(N);
