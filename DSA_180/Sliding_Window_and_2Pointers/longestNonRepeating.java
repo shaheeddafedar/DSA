@@ -23,11 +23,12 @@ public class longestNonRepeating {
     return maxlen;
 }
 }
+
 //Time :O(N);
 //Space :O(N)  or Space Complexity: O(min(N, K))
 
 
-// //BRUTE
+// BRUTE
 // public int longestNonRepeatingSubstring(String s) {
 //       int maxlen =0;
 //       for(int i =0;i<s.length();i++){
