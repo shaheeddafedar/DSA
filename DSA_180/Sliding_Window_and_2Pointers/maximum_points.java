@@ -17,7 +17,7 @@ public class maximum_points {
        int rightindex = cardScore.length-1;
        for (int i = k-1; i >=0; i--) {
           leftsum-=cardScore[i];
-          rightsum=cardScore[rightindex];
+          rightsum+=cardScore[rightindex];
           rightindex--;
           maxsum=Math.max(maxsum, leftsum+rightsum);
        }
