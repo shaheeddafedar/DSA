@@ -36,8 +36,8 @@ public class longestNonRepeating {
 //     while (r < s.length()) {
 //         char ch = s.charAt(r);
 //         while (set.contains(ch)) {
-//             set.remove(s.charAt(l));
-//                 l++;
+//            set.remove(s.charAt(l));
+//                 l++; 
 //         }
 //         set.add(ch);
 //         maxlen = Math.max(maxlen, r - l + 1);
