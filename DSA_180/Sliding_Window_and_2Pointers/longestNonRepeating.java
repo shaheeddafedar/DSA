@@ -27,6 +27,28 @@ public class longestNonRepeating {
 //Time :O(N);
 //Space :O(N)  or Space Complexity: O(min(N, K))
 
+//Or
+
+// Optimal 
+// public int longestNonRepeatingSubstring(String s) {
+// HashSet<Character> set = new HashSet<>();
+//     int l=0,r=0,maxlen=0;
+//     while (r < s.length()) {
+//         char ch = s.charAt(r);
+//         while (set.contains(ch)) {
+//             set.remove(s.charAt(l));
+//                 l++;
+//         }
+//         set.add(ch);
+//         maxlen = Math.max(maxlen, r - l + 1);
+//         r++;
+//     }
+//     return maxlen;
+//     }
+
+//Time :O(N);
+//Space :O(N)  or Space Complexity: O(min(N, K))
+
 
 // BRUTE
 // public int longestNonRepeatingSubstring(String s) {
