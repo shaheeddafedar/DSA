@@ -26,3 +26,26 @@ public class maximum_points {
 }
 // Time :O(2*k);
 // Space :=O(1);
+
+
+
+// Brute Force
+// public static int maxScoreBruteForce(int[] cardScore, int k) {
+//     int n = cardScore.length;
+//     int maxsum=0;
+//     for (int left = 0; left <= k; left++) {
+//         int sum = 0;
+//          for (int i = 0; i < left; i++) {
+//             sum += cardScore[i];
+//         }
+//         for (int right = 0; right <k-left; right++) {
+//             sum+=cardScore[n-1-right];
+//         }
+//         maxsum=Math.max(maxsum,sum);
+//     }
+//     return maxsum;
+
+// }
+
+// Time Complexity: O(k²)
+// Space Complexity: O(1).
