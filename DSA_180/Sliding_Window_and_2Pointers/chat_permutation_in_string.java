@@ -56,20 +56,15 @@ public class chat_permutation_in_string {
 //     public boolean checkInclusion(String s1, String s2) {
 //         if (s1.length() > s2.length())
 //             return false;
-
 //         int[] freq = new int[128];
-
 //         for (int i = 0; i < s1.length(); i++) {
 //             freq[s1.charAt(i)]++;
 //         }
-
 //         for (int i = 0; i <= s2.length() - s1.length(); i++) {
 //             int[] window = new int[128];
-
 //             for (int j = i; j < i + s1.length(); j++) {
 //                 window[s2.charAt(j)]++;
 //             }
-
 //             if (Arrays.equals(freq, window))
 //                 return true;
 //         }
