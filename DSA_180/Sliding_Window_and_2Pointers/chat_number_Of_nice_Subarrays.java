@@ -46,11 +46,10 @@ public static int numberOfOddSubarrays(int[] nums, int k) {
 //         }
 //         if (oddcount==k) {
 //             count++;
-//         }else if (oddcount>k) {
-            
-//         }{
-//             break;
+//         }else if(oddcount>k) {
+//            break;
 //         }
+//         
 //     }
 // }  
 // return count;
