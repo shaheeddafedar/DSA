@@ -73,5 +73,5 @@ public class chat_permutation_in_string {
 //     }
 // }
 
-// Time :O(m × n) 
+// Time :O(N^2) 
 // Space :O(1);
