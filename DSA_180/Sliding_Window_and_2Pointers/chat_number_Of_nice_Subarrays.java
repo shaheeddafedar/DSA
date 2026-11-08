@@ -1,5 +1,12 @@
-package DSA_180.Sliding_Window_and_2Pointers;
+// 1248. Count Number of Nice Subarrays
+// Given an array of integers nums and an integer k. A continuous subarray is called nice if there are k odd numbers on it.
+// Return the number of nice sub-arrays.
+// Example 1:
+// Input: nums = [1,1,2,1,1], k = 3
+// Output: 2
+// Explanation: The only sub-arrays with 3 odd numbers are [1,1,2,1] and [1,2,1,1].
 
+package DSA_180.Sliding_Window_and_2Pointers;
 public class chat_number_Of_nice_Subarrays {
 public static void main(String[] args) {
     
