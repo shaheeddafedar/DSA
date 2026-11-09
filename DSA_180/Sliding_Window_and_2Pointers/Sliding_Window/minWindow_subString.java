@@ -1,4 +1,4 @@
-package DSA_180.Sliding_Window_and_2Pointers;
+package DSA_180.Sliding_Window_and_2Pointers.Sliding_Window;
 
 public class minWindow_subString {
     public static void main(String[] args) {

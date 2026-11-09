@@ -7,7 +7,7 @@
 // Output: 7
 // Explanation: Subarrays formed with exactly 2 different integers: [1,2], [2,1], [1,2], [2,3], [1,2,1], [2,1,2], [1,2,1,2]
 
-package DSA_180.Sliding_Window_and_2Pointers;
+package DSA_180.Sliding_Window_and_2Pointers.Sliding_Window;
 
 import java.util.HashMap;
 

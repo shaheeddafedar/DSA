@@ -6,7 +6,7 @@
 // Output: 2
 // Explanation: The only sub-arrays with 3 odd numbers are [1,1,2,1] and [1,2,1,1].
 
-package DSA_180.Sliding_Window_and_2Pointers;
+package DSA_180.Sliding_Window_and_2Pointers.Sliding_Window;
 public class chat_number_Of_nice_Subarrays {
 public static void main(String[] args) {
     

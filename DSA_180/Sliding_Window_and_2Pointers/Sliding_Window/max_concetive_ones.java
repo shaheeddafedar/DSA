@@ -1,4 +1,4 @@
-package DSA_180.Sliding_Window_and_2Pointers;
+package DSA_180.Sliding_Window_and_2Pointers.Sliding_Window;
 
 public class max_concetive_ones {
      public static void main(String[] args){
