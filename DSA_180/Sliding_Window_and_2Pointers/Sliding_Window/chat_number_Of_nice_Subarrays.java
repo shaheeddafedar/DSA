@@ -10,7 +10,8 @@ package DSA_180.Sliding_Window_and_2Pointers.Sliding_Window;
 public class chat_number_Of_nice_Subarrays {
 public static void main(String[] args) {
     
-}   
+}
+   
 
 
 public static int numberOfOddSubarrays(int[] nums, int k) {
