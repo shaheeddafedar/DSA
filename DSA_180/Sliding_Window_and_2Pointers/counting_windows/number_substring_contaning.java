@@ -2,8 +2,8 @@ package DSA_180.Sliding_Window_and_2Pointers.counting_windows;
 import java.util.HashMap;
 
 public class number_substring_contaning {
-    public static void main(String[] args) {
-        
+    public static void main(String[] args){
+
     }
     public static  int numberOfSubstrings(String s) {
        int count =0;
