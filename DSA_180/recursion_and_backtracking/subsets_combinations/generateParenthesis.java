@@ -5,7 +5,6 @@ import java.util.List;
 
 public class generateParenthesis {
     public static void main(String[] args) {
-
     }
     public List<String> generateParenthesiss(int n) {
        List<String> list = new ArrayList<>();
