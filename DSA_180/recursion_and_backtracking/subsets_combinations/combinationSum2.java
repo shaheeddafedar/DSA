@@ -23,6 +23,7 @@ public class combinationSum2 {
             ans.add(new ArrayList<>(list));
             return;
         }
+        
         for (int i = index; i < candidates.length; i++) {
             if (i > index && candidates[i] == candidates[i - 1]) {
                 continue;
