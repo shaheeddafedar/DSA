@@ -20,7 +20,7 @@ public class combinationSum2 {
             return;
         }
         if (target == 0) {
-            ans.add(new ArrayList(list));
+            ans.add(new ArrayList<>(list));
             return;
         }
         for (int i = index; i < candidates.length; i++) {
@@ -33,3 +33,6 @@ public class combinationSum2 {
         }
     }
 }
+
+// Time O(n×2^n)
+// space O(n)
