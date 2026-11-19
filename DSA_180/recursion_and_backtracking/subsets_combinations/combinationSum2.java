@@ -36,4 +36,4 @@ public class combinationSum2 {
 }
 
 // Time O(n×2^n)
-// space O(n)
+// space O(n×2^n)

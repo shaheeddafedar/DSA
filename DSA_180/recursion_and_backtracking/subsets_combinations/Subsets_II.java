@@ -8,7 +8,7 @@ public class Subsets_II {
     public static void main(String[] args) {
         
     }
-        public List<List<Integer>> subsetsWithDup(int[] nums) {
+     public List<List<Integer>> subsetsWithDup(int[] nums) {
     List<List<Integer>> ans = new ArrayList<>();
     Arrays.sort(nums);
     backTrack_findCom2(nums,0,ans,new ArrayList<>());
@@ -26,3 +26,5 @@ public class Subsets_II {
         }
     }
 }
+// Time O(n×2^n)
+// space O(n×2^n)
