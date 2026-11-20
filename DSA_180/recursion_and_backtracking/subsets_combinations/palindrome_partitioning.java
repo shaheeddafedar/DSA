@@ -6,6 +6,7 @@ import java.util.List;
 public class palindrome_partitioning {
     public static void main(String[] args) {
         
+        
     }
     public List<List<String>> partition(String s) {
         List<List<String>> ans = new ArrayList<>();
