@@ -34,6 +34,4 @@ public class palindrome_partitioning_ii {
         return false;
     }
 }
-
-
 }
