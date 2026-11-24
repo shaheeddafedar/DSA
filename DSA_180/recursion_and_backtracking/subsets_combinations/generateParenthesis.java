@@ -25,5 +25,5 @@ public class generateParenthesis {
 }
 
 
-// Time : O(C n​×n), where Cn is the nth Catalan number.
+// Time : O(Cn​×n), where Cn is the nth Catalan number.
 // Space : O(Cn×n) 
