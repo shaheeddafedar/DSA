@@ -3,7 +3,7 @@ package chat_problems;
 import java.util.Stack;
 
 public class valid_parentheses {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         
     }
     public boolean isValid(String s) {
