@@ -4,6 +4,9 @@ public class Sudokusolver {
     public static void main(String[] args) {
         
     }
+       public void solveSudoku(char[][] board) {
+        solve(board);
+    }
 
     public  boolean solve(char[][] board) {
         // Find an empty cell
