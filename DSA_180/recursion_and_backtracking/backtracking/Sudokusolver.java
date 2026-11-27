@@ -65,3 +65,5 @@ public class Sudokusolver {
         return true;
     }
 }
+// Time O(9^E)
+// Space O(E)
